@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\BaseParameters.cs" />
+    <Compile Remove="Common\ParametersExtensions.cs" />
+  </ItemGroup>
+
+</Project>
